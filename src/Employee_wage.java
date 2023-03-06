@@ -9,6 +9,11 @@ public class Employee_wage {
     }else {
             System.out.println("Employee is absent");
         }
+
+        int wagePerHr = 20;
+        int fulDay = 8;
+        int dailyWage = wagePerHr * fulDay;
+        System.out.println(dailyWage);
     }
 }
 
